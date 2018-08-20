@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/axios-0.18.0.min.js"></script>
+</head>
+<body>
+<input type="button" value="show" id="show">
+</body>
+</html>
+<script>
+    $('#show').click(function () {
+        axios.get('http://127.0.0.1:8000/show/')
+            .then(response=>{
+                console.log('ok')
+            }).catch(error=>{
+                console.log('no')
+        });
+    });
+</script>
