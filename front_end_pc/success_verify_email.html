@@ -41,7 +41,7 @@
                 success: true
             },
             created: function(){
-                axios.get(this.host+'/user/emails/verification/'+ document.location.search)
+                axios.get(this.host+'/emails/verification/'+ document.location.search)
                     .then(response => {
                         this.success = true;
                     })

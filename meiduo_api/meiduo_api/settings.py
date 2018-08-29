@@ -11,9 +11,15 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+import sys
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+import datetime
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# sys.path-->指定python包的查找路径
+sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -24,7 +30,13 @@ SECRET_KEY = '%f1niewyqzzkr3c@lb^k*8td$n$&ott33*^p6x8bm(cxbz@+^1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# 允许的域名访问
+ALLOWED_HOSTS = [
+    'api.meiduo.site',
+    'www.meiduo.site',
+    '127.0.0.1',
+    'localhost',
+]
 
 # Application definition
 
@@ -36,9 +48,22 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'corsheaders',
+    'users.apps.UsersConfig',
+    'verifications.apps.VerificationsConfig',
+    'oauth.apps.OauthConfig',
+    'goods.apps.GoodsConfig',
+    'contents.apps.ContentsConfig',
+    'ckeditor',  # 富文本编辑器
+    'ckeditor_uploader',  # 富文本编辑器上传图片模块
+    'django_crontab',  # 定时任务
+    'haystack',
+    'areas.apps.AreasConfig',
+
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -77,8 +102,8 @@ DATABASES = {
         'NAME': 'meiduo_site',
         'HOST': 'localhost',
         'PORT': 3306,
-        'USER': 'meiduo_site',
-        'PASSWORD': 'meido',
+        'USER': 'meiduo_user',
+        'PASSWORD': 'meiduo',
     }
 }
 
@@ -132,10 +157,34 @@ CACHES = {
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
-    }
+    },
+    # 存储短信验证码
+    "verifiy_codes": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/2",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    # 商品浏览记录
+    "history": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/3",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
 }
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "session"
+
+# DRF扩展
+REST_FRAMEWORK_EXTENSIONS = {
+    # 缓存时间
+    'DEFAULT_CACHE_RESPONSE_TIMEOUT': 60 * 60,
+    # 缓存存储
+    'DEFAULT_USE_CACHE': 'default',
+}
 
 # 日志：将错误信息写到日志中，便于后期的查看与维护
 LOGGING = {
@@ -182,4 +231,98 @@ LOGGING = {
 REST_FRAMEWORK = {
     # 异常处理
     'EXCEPTION_HANDLER': 'utils.exceptions.exception_handler',
+    # drf 中的身份验证方式
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        # 首选是JWT
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        # 接下来还可以使用session/basic
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+    ),
+    # 分页--所有的查询列表都会被分页,如果某些视图类不想分页设置 pagination_class=None
+    'DEFAULT_PAGINATION_CLASS': 'utils.pagination.StandardResultsSetPagination',
 }
+
+JWT_AUTH = {
+    # JWT口令过期时间
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
+
+    'JWT_RESPONSE_PAYLOAD_HANDLER': 'users.utils.jwt_response_payload_handler',
+}
+
+# CORS--白名单--跨域访问
+CORS_ORIGIN_WHITELIST = (
+    '127.0.0.1:8080',
+    'localhost:8080',
+    'www.meiduo.site:8080',
+    'api.meiduo.site:8000'
+)
+CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
+
+# 当前存在两个User类，自定义1个，django贡献1个，需要指定通过哪个模型类进行身份认证
+AUTH_USER_MODEL = 'users.User'
+
+AUTHENTICATION_BACKENDS = [
+    'users.utils.UsernameMobileAuthBackend',
+]
+
+# QQ登录参数
+QQ_CLIENT_ID = '101474184'  # APP_ID
+QQ_CLIENT_SECRET = 'c6ce949e04e12ecc909ae6a8b09b637c'  # APP_Key
+QQ_REDIRECT_URI = 'http://www.meiduo.site:8080/oauth_callback.html'  # 网站回调域
+QQ_STATE = '/'  # 登陆成功返回的地址
+
+# 邮箱设置
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.163.com'
+EMAIL_PORT = 25
+# 发送邮件的邮箱
+EMAIL_HOST_USER = '17310424232@163.com'
+# 在邮箱中设置的客户端授权密码
+EMAIL_HOST_PASSWORD = 'r642031'
+# 收件人看到的发件人
+EMAIL_FROM = '美多商场<17310424232@163.com>'
+
+# django文件存储
+DEFAULT_FILE_STORAGE = 'utils.fastdfs.fdfs_storage.FastDFSStorage'
+
+# FastDFS
+FDFS_URL = 'http://image.meiduo.site:8888/'
+FDFS_CLIENT_CONF = os.path.join(BASE_DIR, 'utils/fastdfs/client.conf')
+
+# 富文本编辑器ckeditor配置
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',  # 工具条功能
+        'height': 300,  # 编辑器高度
+        # 'width': 300,  # 编辑器宽度
+    },
+}
+CKEDITOR_UPLOAD_PATH = ''  # 上传图片保存路径，使用了FastDFS，所以此处设为''
+
+# 生成的静态html文件保存目录
+GENERATED_STATIC_HTML_FILES_DIR = os.path.join(os.path.dirname(BASE_DIR), 'front_end_pc')
+
+# 定时任务
+CRONJOBS = [
+    # 每5分钟执行一次生成主页静态文件
+    ('*/5 * * * *', 'contents.crons.generate_static_index_html',
+     '>> /home/python/Desktop/python_Django/meiduo_site/meiduo_api/logs/crontab.log')
+]
+
+# 解决crontab中文问题
+CRONTAB_COMMAND_PREFIX = 'LANG_ALL=zh_cn.UTF-8'
+
+# Haystack
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
+        # 端口号固定为9200
+        'URL': 'http://192.168.174.136:9200/',
+        # 指定elasticsearch建立的索引库的名称
+        'INDEX_NAME': 'meiduo_site',
+    },
+}
+
+# 当添加、修改、删除数据时，自动生成索引
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'

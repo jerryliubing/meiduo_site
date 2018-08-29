@@ -1,0 +1,753 @@
+INFO 2018-08-20 11:16:25,977 basehttp 124 "GET / HTTP/1.1" 200 1714
+ERROR 2018-08-20 11:17:21,567 exception 80 Invalid HTTP_HOST header: 'api.meiduo.site:8000'. You may need to add 'api.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2018-08-20 11:17:21,784 basehttp 124 "GET / HTTP/1.1" 400 69430
+ERROR 2018-08-20 11:17:22,053 exception 80 Invalid HTTP_HOST header: 'api.meiduo.site:8000'. You may need to add 'api.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2018-08-20 11:17:22,153 basehttp 124 "GET /favicon.ico HTTP/1.1" 400 69489
+INFO 2018-08-20 11:19:43,812 basehttp 124 "GET / HTTP/1.1" 200 1714
+WARNING 2018-08-20 11:19:43,920 base 152 Not Found: /favicon.ico
+WARNING 2018-08-20 11:19:43,923 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 1972
+INFO 2018-08-20 11:20:18,537 basehttp 124 "GET / HTTP/1.1" 200 1714
+INFO 2018-08-20 11:20:20,408 basehttp 124 "GET / HTTP/1.1" 200 1714
+INFO 2018-08-20 11:20:21,339 basehttp 124 "GET / HTTP/1.1" 200 1714
+WARNING 2018-08-20 16:31:19,601 base 152 Not Found: /
+WARNING 2018-08-20 16:31:19,611 basehttp 124 "GET / HTTP/1.1" 404 2102
+ERROR 2018-08-20 16:32:59,826 exception 80 Invalid HTTP_HOST header: 'www.meiduo.site:8000'. You may need to add 'www.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2018-08-20 16:32:59,913 basehttp 124 "GET / HTTP/1.1" 400 70630
+ERROR 2018-08-20 16:33:00,109 exception 80 Invalid HTTP_HOST header: 'www.meiduo.site:8000'. You may need to add 'www.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2018-08-20 16:33:00,172 basehttp 124 "GET /favicon.ico HTTP/1.1" 400 70689
+ERROR 2018-08-20 16:34:14,554 exception 80 Invalid HTTP_HOST header: 'www.meiduo.site:8000'. You may need to add 'www.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2018-08-20 16:34:14,649 basehttp 124 "GET / HTTP/1.1" 400 70765
+WARNING 2018-08-20 16:35:52,853 base 152 Not Found: /
+WARNING 2018-08-20 16:35:52,867 basehttp 124 "GET / HTTP/1.1" 404 2108
+WARNING 2018-08-20 16:38:42,060 base 152 Not Found: /mobiles/18622344618/count/
+WARNING 2018-08-20 16:38:42,077 basehttp 124 "GET /mobiles/18622344618/count/ HTTP/1.1" 404 2204
+WARNING 2018-08-20 16:38:43,807 base 152 Not Found: /mobiles/18622344618/count/
+WARNING 2018-08-20 16:38:43,809 basehttp 124 "GET /mobiles/18622344618/count/ HTTP/1.1" 404 2204
+INFO 2018-08-20 16:38:43,814 basehttp 124 "GET /sms_code/18622344618/ HTTP/1.1" 200 16
+WARNING 2018-08-20 16:39:44,958 base 152 Not Found: /mobiles/18622344619/count/
+WARNING 2018-08-20 16:39:44,970 basehttp 124 "GET /mobiles/18622344619/count/ HTTP/1.1" 404 2204
+WARNING 2018-08-20 16:39:45,064 base 152 Not Found: /mobiles/18622344619/count/
+INFO 2018-08-20 16:39:45,065 basehttp 124 "GET /sms_code/18622344619/ HTTP/1.1" 200 16
+WARNING 2018-08-20 16:39:45,087 basehttp 124 "GET /mobiles/18622344619/count/ HTTP/1.1" 404 2204
+WARNING 2018-08-20 16:40:07,269 base 152 Not Found: /mobiles/18622344620/count/
+WARNING 2018-08-20 16:40:07,283 basehttp 124 "GET /mobiles/18622344620/count/ HTTP/1.1" 404 2204
+WARNING 2018-08-20 16:49:24,405 base 152 Not Found: /mobiles/18622344618/count/
+WARNING 2018-08-20 16:49:24,407 base 152 Not Found: /mobiles/18622344618/count/
+WARNING 2018-08-20 16:49:24,417 basehttp 124 "GET /mobiles/18622344618/count/ HTTP/1.1" 404 2204
+WARNING 2018-08-20 16:49:24,423 basehttp 124 "GET /mobiles/18622344618/count/ HTTP/1.1" 404 2204
+INFO 2018-08-20 16:49:24,435 basehttp 124 "GET /sms_code/18622344618/ HTTP/1.1" 200 16
+WARNING 2018-08-20 16:49:35,600 base 152 Not Found: /mobiles/18622344619/count/
+WARNING 2018-08-20 16:49:35,603 basehttp 124 "GET /mobiles/18622344619/count/ HTTP/1.1" 404 2204
+WARNING 2018-08-20 16:51:02,763 base 152 Not Found: /mobiles/18622344619/count/
+INFO 2018-08-20 16:51:02,778 basehttp 124 "GET /sms_code/18622344619/ HTTP/1.1" 200 16
+WARNING 2018-08-20 16:51:02,782 basehttp 124 "GET /mobiles/18622344619/count/ HTTP/1.1" 404 2204
+INFO 2018-08-20 20:43:20,276 basehttp 124 "GET /usernames/123456/count/ HTTP/1.1" 200 31
+INFO 2018-08-20 20:43:28,977 basehttp 124 "GET /usernames/123456/count/ HTTP/1.1" 200 5255
+INFO 2018-08-20 20:43:29,013 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2018-08-20 20:43:29,014 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2018-08-20 20:43:29,027 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2018-08-20 20:43:29,039 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2018-08-20 20:43:29,049 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+INFO 2018-08-20 20:43:29,053 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2018-08-20 20:43:29,057 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+INFO 2018-08-20 20:43:29,065 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2018-08-20 20:43:29,069 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2018-08-20 20:43:29,073 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+INFO 2018-08-20 20:43:29,093 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2018-08-20 20:43:44,669 basehttp 124 "GET /mobiles/18622344618/count/ HTTP/1.1" 200 34
+INFO 2018-08-20 21:48:35,390 basehttp 124 "GET /usernames/123456/count/ HTTP/1.1" 200 31
+INFO 2018-08-20 21:49:10,389 basehttp 124 "GET /mobiles/18622344618/count/ HTTP/1.1" 200 34
+INFO 2018-08-20 21:49:10,482 basehttp 124 "GET /mobiles/18622344618/count/ HTTP/1.1" 200 34
+INFO 2018-08-20 21:49:10,630 basehttp 124 "GET /sms_code/18622344618/ HTTP/1.1" 200 16
+INFO 2018-08-20 21:49:32,654 basehttp 124 "OPTIONS /users/ HTTP/1.1" 200 0
+ERROR 2018-08-20 21:49:32,665 exception 135 Internal Server Error: /users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2018-08-20 21:49:32,667 basehttp 124 "GET /usernames/123456/count/ HTTP/1.1" 200 31
+INFO 2018-08-20 21:49:32,685 basehttp 124 "GET /mobiles/18622344618/count/ HTTP/1.1" 200 34
+ERROR 2018-08-20 21:49:32,815 basehttp 124 "POST /users/ HTTP/1.1" 500 87111
+INFO 2018-08-20 21:51:08,368 basehttp 124 "GET /usernames/123456/count/ HTTP/1.1" 200 31
+INFO 2018-08-20 21:51:19,341 basehttp 124 "GET /mobiles/18622344618/count/ HTTP/1.1" 200 34
+INFO 2018-08-20 21:51:19,420 basehttp 124 "GET /mobiles/18622344618/count/ HTTP/1.1" 200 34
+INFO 2018-08-20 21:51:19,532 basehttp 124 "GET /sms_code/18622344618/ HTTP/1.1" 200 16
+INFO 2018-08-20 21:51:34,376 basehttp 124 "OPTIONS /users/ HTTP/1.1" 200 0
+INFO 2018-08-20 21:51:34,404 basehttp 124 "GET /usernames/123456/count/ HTTP/1.1" 200 31
+INFO 2018-08-20 21:51:34,413 basehttp 124 "GET /mobiles/18622344618/count/ HTTP/1.1" 200 34
+INFO 2018-08-20 21:51:34,500 basehttp 124 "POST /users/ HTTP/1.1" 201 51
+WARNING 2018-08-21 20:28:26,893 base 152 Not Found: /
+WARNING 2018-08-21 20:28:26,911 basehttp 124 "GET / HTTP/1.1" 404 2653
+WARNING 2018-08-21 20:28:33,565 base 152 Not Found: /user
+WARNING 2018-08-21 20:28:33,597 basehttp 124 "GET /user HTTP/1.1" 404 2683
+INFO 2018-08-21 20:28:41,016 basehttp 124 "GET /users HTTP/1.1" 301 0
+WARNING 2018-08-21 20:28:41,202 basehttp 124 "GET /users/ HTTP/1.1" 405 8436
+WARNING 2018-08-21 20:29:46,238 base 152 Not Found: /
+WARNING 2018-08-21 20:29:46,250 basehttp 124 "GET / HTTP/1.1" 404 2653
+INFO 2018-08-21 20:30:12,780 basehttp 124 "GET /sms_code/18622344000 HTTP/1.1" 301 0
+INFO 2018-08-21 20:30:13,165 basehttp 124 "GET /sms_code/18622344000/ HTTP/1.1" 200 5170
+INFO 2018-08-21 20:32:05,662 basehttp 124 "GET /sms_code/18622344000/ HTTP/1.1" 200 5170
+INFO 2018-08-21 20:32:05,700 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2018-08-21 20:32:05,708 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2018-08-21 20:32:05,711 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2018-08-21 20:32:05,712 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2018-08-21 20:32:05,713 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 304 0
+INFO 2018-08-21 20:32:05,726 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2018-08-21 20:32:05,732 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2018-08-21 20:32:05,749 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2018-08-21 20:32:05,761 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2018-08-21 20:32:05,771 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2018-08-21 20:34:19,519 basehttp 124 "POST /users/ HTTP/1.1" 201 8697
+WARNING 2018-08-21 20:51:20,191 basehttp 124 "GET /users/ HTTP/1.1" 405 8436
+INFO 2018-08-21 20:51:20,279 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2018-08-21 20:51:20,279 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2018-08-21 20:51:20,284 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2018-08-21 20:51:20,304 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2018-08-21 20:51:20,308 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 304 0
+INFO 2018-08-21 20:51:20,312 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2018-08-21 20:51:20,320 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2018-08-21 20:51:20,336 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2018-08-21 20:51:20,353 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2018-08-21 20:51:20,360 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+WARNING 2018-08-21 20:51:28,802 base 152 Not Found: /
+WARNING 2018-08-21 20:51:28,811 basehttp 124 "GET / HTTP/1.1" 404 2818
+WARNING 2018-08-21 20:51:59,985 basehttp 124 "GET /authorizations/ HTTP/1.1" 405 7589
+INFO 2018-08-21 20:52:40,092 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 7706
+INFO 2018-08-21 21:41:26,189 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 7782
+WARNING 2018-08-28 17:30:29,025 base 152 Not Found: /
+WARNING 2018-08-28 17:30:29,046 basehttp 124 "GET / HTTP/1.1" 404 3341
+WARNING 2018-08-28 17:30:29,294 base 152 Not Found: /favicon.ico
+WARNING 2018-08-28 17:30:29,305 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3392
+WARNING 2018-08-28 17:30:43,961 base 152 Not Found: /
+WARNING 2018-08-28 17:30:43,979 basehttp 124 "GET / HTTP/1.1" 404 3347
+WARNING 2018-08-28 17:30:44,046 base 152 Not Found: /favicon.ico
+WARNING 2018-08-28 17:30:44,057 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3398
+INFO 2018-08-28 17:30:57,081 basehttp 124 "GET /admin HTTP/1.1" 301 0
+INFO 2018-08-28 17:30:57,234 basehttp 124 "GET /admin/ HTTP/1.1" 302 0
+INFO 2018-08-28 17:30:57,359 basehttp 124 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1652
+INFO 2018-08-28 17:30:57,418 basehttp 124 "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+INFO 2018-08-28 17:30:57,420 basehttp 124 "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+INFO 2018-08-28 17:30:57,475 basehttp 124 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2018-08-28 17:30:57,508 basehttp 124 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO 2018-08-28 17:30:57,555 basehttp 124 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+INFO 2018-08-28 17:31:12,266 basehttp 124 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2018-08-28 17:31:12,419 basehttp 124 "GET /admin/ HTTP/1.1" 200 7507
+INFO 2018-08-28 17:31:12,466 basehttp 124 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2018-08-28 17:31:12,507 basehttp 124 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+INFO 2018-08-28 17:31:12,518 basehttp 124 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2018-08-28 17:31:12,524 basehttp 124 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2018-08-28 17:31:31,132 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4663
+INFO 2018-08-28 17:31:31,190 basehttp 124 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+INFO 2018-08-28 17:31:31,202 basehttp 124 "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+INFO 2018-08-28 17:31:31,229 basehttp 124 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+INFO 2018-08-28 17:31:31,244 basehttp 124 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6591
+INFO 2018-08-28 17:31:31,253 basehttp 124 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+INFO 2018-08-28 17:31:31,271 basehttp 124 "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+INFO 2018-08-28 17:31:31,279 basehttp 124 "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+INFO 2018-08-28 17:31:31,282 basehttp 124 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+INFO 2018-08-28 17:31:31,292 basehttp 124 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+INFO 2018-08-28 17:31:31,298 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-08-28 17:31:31,598 basehttp 124 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2018-08-28 17:31:35,329 basehttp 124 "GET /admin/goods/goods/3/change/ HTTP/1.1" 200 87285
+INFO 2018-08-28 17:31:35,416 basehttp 124 "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+INFO 2018-08-28 17:31:35,443 basehttp 124 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+INFO 2018-08-28 17:31:35,468 basehttp 124 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2018-08-28 17:31:35,521 basehttp 124 "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+INFO 2018-08-28 17:31:35,527 basehttp 124 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 2018-08-28 17:31:35,563 basehttp 124 "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+INFO 2018-08-28 17:31:35,648 basehttp 124 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 690627
+INFO 2018-08-28 17:31:35,649 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-08-28 17:31:36,547 basehttp 124 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 338
+INFO 2018-08-28 17:31:36,593 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 200 46921
+INFO 2018-08-28 17:31:36,597 basehttp 124 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 200 18818
+INFO 2018-08-28 17:31:36,707 basehttp 124 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2018-08-28 17:31:36,744 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+INFO 2018-08-28 17:31:36,760 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+INFO 2018-08-28 17:31:36,778 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+INFO 2018-08-28 17:31:36,782 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+INFO 2018-08-28 17:31:36,801 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+INFO 2018-08-28 17:31:36,965 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 200 12421
+INFO 2018-08-28 17:31:37,095 basehttp 124 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2954
+INFO 2018-08-28 17:33:05,657 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4663
+INFO 2018-08-28 17:33:18,382 basehttp 124 "GET /admin/goods/ HTTP/1.1" 200 5582
+INFO 2018-08-28 17:33:24,751 basehttp 124 "GET /admin/goods/goodschannel/ HTTP/1.1" 200 12454
+INFO 2018-08-28 17:33:24,869 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-08-28 17:33:32,427 basehttp 124 "GET /admin/goods/goodschannel/1/change/ HTTP/1.1" 200 29023
+INFO 2018-08-28 17:33:32,551 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-08-28 20:01:23,427 basehttp 124 "GET /admin/goods/ HTTP/1.1" 200 5582
+INFO 2018-08-28 20:01:26,886 basehttp 124 "GET /admin/goods/goodscategory/ HTTP/1.1" 200 27851
+INFO 2018-08-28 20:01:27,101 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-08-28 20:01:32,533 basehttp 124 "GET /admin/goods/goodscategory/?p=5 HTTP/1.1" 200 15782
+INFO 2018-08-28 20:01:32,640 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-08-28 20:01:36,755 basehttp 124 "GET /admin/goods/goodscategory/1/change/?_changelist_filters=p%3D5 HTTP/1.1" 200 28047
+INFO 2018-08-28 20:01:36,894 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-08-28 20:01:41,014 basehttp 124 "POST /admin/goods/goodscategory/1/change/?_changelist_filters=p%3D5 HTTP/1.1" 302 0
+INFO 2018-08-28 20:01:41,517 basehttp 124 "GET /admin/goods/goodscategory/?p=5 HTTP/1.1" 200 15966
+INFO 2018-08-28 20:01:41,637 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-08-28 20:01:41,876 basehttp 124 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2018-08-28 21:25:31,105 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2018-08-28 21:25:31,193 base 152 Not Found: /categories/115/
+WARNING 2018-08-28 21:25:31,196 base 152 Not Found: /cart/
+WARNING 2018-08-28 21:25:31,206 basehttp 124 "GET /cart/ HTTP/1.1" 404 3573
+WARNING 2018-08-28 21:25:31,210 basehttp 124 "GET /categories/115/ HTTP/1.1" 404 3603
+INFO 2018-08-28 21:25:31,231 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+INFO 2018-08-28 21:25:35,245 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.1" 200 1312
+INFO 2018-08-28 21:25:38,721 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=sales HTTP/1.1" 200 1270
+INFO 2018-08-28 21:25:43,429 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.1" 200 1312
+INFO 2018-08-28 21:25:47,412 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=sales HTTP/1.1" 200 1270
+INFO 2018-08-28 21:25:48,912 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+INFO 2018-08-28 21:25:52,243 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.1" 200 1312
+INFO 2018-08-28 21:26:06,001 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=sales HTTP/1.1" 200 1270
+INFO 2018-08-28 21:26:12,949 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.1" 200 1312
+INFO 2018-08-28 21:26:18,356 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=sales HTTP/1.1" 200 1270
+INFO 2018-08-28 21:26:20,129 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.1" 200 1312
+INFO 2018-08-28 21:26:22,095 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+INFO 2018-08-28 21:26:25,119 basehttp 124 "GET /categories/115/skus/?page=3&page_size=5&ordering=-create_time HTTP/1.1" 200 1033
+INFO 2018-08-28 21:26:27,908 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=sales HTTP/1.1" 200 1270
+INFO 2018-08-28 21:26:29,765 basehttp 124 "GET /categories/115/skus/?page=3&page_size=5&ordering=sales HTTP/1.1" 200 1053
+INFO 2018-08-28 21:26:34,323 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.1" 200 1312
+INFO 2018-08-28 21:26:35,965 basehttp 124 "GET /categories/115/skus/?page=2&page_size=5&ordering=price HTTP/1.1" 200 1362
+INFO 2018-08-28 21:26:39,226 basehttp 124 "GET /categories/115/skus/?page=3&page_size=5&ordering=price HTTP/1.1" 200 1021
+INFO 2018-08-28 21:58:40,354 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2018-08-28 21:58:40,440 base 152 Not Found: /cart/
+WARNING 2018-08-28 21:58:40,444 basehttp 124 "GET /cart/ HTTP/1.1" 404 4792
+WARNING 2018-08-28 21:58:42,288 base 152 Not Found: /cart/
+WARNING 2018-08-28 21:58:42,290 basehttp 124 "GET /cart/ HTTP/1.1" 404 4792
+INFO 2018-08-28 21:59:12,638 basehttp 124 "GET /skus/search/?text=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 2681
+INFO 2018-08-28 22:02:50,338 basehttp 124 "GET /skus/search/?text=%E5%8D%8E%E4%B8%BA&page=2&page_size=6 HTTP/1.1" 200 971
+INFO 2018-08-28 22:02:51,693 basehttp 124 "GET /skus/search/?text=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 2681
+INFO 2018-08-29 10:07:56,466 basehttp 124 "GET /skus/search/?text=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 52
+INFO 2018-08-29 10:17:15,750 basehttp 124 "GET /admin/goods/ HTTP/1.1" 200 5582
+INFO 2018-08-29 10:17:20,583 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8575
+INFO 2018-08-29 10:17:20,714 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-08-29 10:17:26,543 basehttp 124 "GET /admin/goods/sku/16/change/ HTTP/1.1" 200 34198
+INFO 2018-08-29 10:17:26,674 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+ERROR 2018-08-29 10:18:10,371 exception 135 Internal Server Error: /admin/goods/sku/16/change/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/util/connection.py", line 79, in create_connection
+    raise err
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/util/connection.py", line 69, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/connection/http_urllib3.py", line 95, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/util/retry.py", line 343, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.5/http/client.py", line 1106, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1151, in _send_request
+    self.endheaders(body)
+  File "/usr/lib/python3.5/http/client.py", line 1102, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/connection.py", line 196, in connect
+    conn = self._new_conn()
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f370821acf8>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/contrib/admin/options.py", line 1511, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/contrib/admin/options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/contrib/admin/options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/contrib/admin/options.py", line 979, in save_model
+    obj.save()
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/db/models/base.py", line 806, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/db/models/base.py", line 846, in save_base
+    update_fields=update_fields, raw=raw, using=using,
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/dispatch/dispatcher.py", line 193, in send
+    for receiver in self._live_receivers(sender)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/dispatch/dispatcher.py", line 193, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/haystack/signals.py", line 52, in handle_save
+    index.update_object(instance, using=using)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/haystack/indexes.py", line 284, in update_object
+    backend.update(self, [instance])
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/haystack/backends/elasticsearch_backend.py", line 190, in update
+    bulk(self.conn, prepped_docs, index=self.index_name, doc_type='modelresult')
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/helpers/__init__.py", line 190, in bulk
+    for ok, item in streaming_bulk(client, actions, **kwargs):
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/helpers/__init__.py", line 162, in streaming_bulk
+    for result in _process_bulk_chunk(client, bulk_actions, raise_on_exception, raise_on_error, **kwargs):
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/helpers/__init__.py", line 91, in _process_bulk_chunk
+    raise e
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/helpers/__init__.py", line 87, in _process_bulk_chunk
+    resp = client.bulk('\n'.join(bulk_actions) + '\n', **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/client/utils.py", line 69, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/client/__init__.py", line 785, in bulk
+    doc_type, '_bulk'), params=params, body=self._bulk_body(body))
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/transport.py", line 327, in perform_request
+    status, headers, data = connection.perform_request(method, url, params, body, ignore=ignore, timeout=timeout)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/connection/http_urllib3.py", line 106, in perform_request
+    raise ConnectionError('N/A', str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f370821acf8>: Failed to establish a new connection: [Errno 113] No route to host) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f370821acf8>: Failed to establish a new connection: [Errno 113] No route to host)
+ERROR 2018-08-29 10:18:11,155 basehttp 124 "POST /admin/goods/sku/16/change/ HTTP/1.1" 500 299352
+INFO 2018-08-29 10:19:19,313 basehttp 124 "GET /admin/goods/sku/16/change/ HTTP/1.1" 200 34198
+INFO 2018-08-29 10:19:23,940 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8575
+INFO 2018-08-29 10:19:29,748 basehttp 124 "GET /admin/goods/sku/16/change/ HTTP/1.1" 200 34198
+INFO 2018-08-29 10:19:29,852 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+ERROR 2018-08-29 10:21:10,445 exception 135 Internal Server Error: /admin/goods/sku/16/change/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/util/connection.py", line 79, in create_connection
+    raise err
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/util/connection.py", line 69, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/connection/http_urllib3.py", line 95, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/util/retry.py", line 343, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.5/http/client.py", line 1106, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1151, in _send_request
+    self.endheaders(body)
+  File "/usr/lib/python3.5/http/client.py", line 1102, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/connection.py", line 196, in connect
+    conn = self._new_conn()
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f37080773c8>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/contrib/admin/options.py", line 1511, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/contrib/admin/options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/contrib/admin/options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/contrib/admin/options.py", line 979, in save_model
+    obj.save()
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/db/models/base.py", line 806, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/db/models/base.py", line 846, in save_base
+    update_fields=update_fields, raw=raw, using=using,
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/dispatch/dispatcher.py", line 193, in send
+    for receiver in self._live_receivers(sender)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/dispatch/dispatcher.py", line 193, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/haystack/signals.py", line 52, in handle_save
+    index.update_object(instance, using=using)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/haystack/indexes.py", line 284, in update_object
+    backend.update(self, [instance])
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/haystack/backends/elasticsearch_backend.py", line 190, in update
+    bulk(self.conn, prepped_docs, index=self.index_name, doc_type='modelresult')
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/helpers/__init__.py", line 190, in bulk
+    for ok, item in streaming_bulk(client, actions, **kwargs):
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/helpers/__init__.py", line 162, in streaming_bulk
+    for result in _process_bulk_chunk(client, bulk_actions, raise_on_exception, raise_on_error, **kwargs):
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/helpers/__init__.py", line 91, in _process_bulk_chunk
+    raise e
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/helpers/__init__.py", line 87, in _process_bulk_chunk
+    resp = client.bulk('\n'.join(bulk_actions) + '\n', **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/client/utils.py", line 69, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/client/__init__.py", line 785, in bulk
+    doc_type, '_bulk'), params=params, body=self._bulk_body(body))
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/transport.py", line 327, in perform_request
+    status, headers, data = connection.perform_request(method, url, params, body, ignore=ignore, timeout=timeout)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/connection/http_urllib3.py", line 106, in perform_request
+    raise ConnectionError('N/A', str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f37080773c8>: Failed to establish a new connection: [Errno 113] No route to host) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f37080773c8>: Failed to establish a new connection: [Errno 113] No route to host)
+ERROR 2018-08-29 10:21:10,869 basehttp 124 "POST /admin/goods/sku/16/change/ HTTP/1.1" 500 299354
+INFO 2018-08-29 10:36:51,097 basehttp 124 "GET /admin/goods/sku/16/change/ HTTP/1.1" 200 34198
+INFO 2018-08-29 10:36:55,941 basehttp 124 "GET /admin/goods/ HTTP/1.1" 200 5582
+INFO 2018-08-29 10:36:58,450 basehttp 124 "GET /admin/goods/skuimage/ HTTP/1.1" 200 15618
+INFO 2018-08-29 10:36:58,531 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-08-29 10:37:06,174 basehttp 124 "GET /admin/goods/ HTTP/1.1" 200 5582
+INFO 2018-08-29 10:37:09,874 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8575
+INFO 2018-08-29 10:37:09,975 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-08-29 10:37:13,646 basehttp 124 "GET /admin/goods/sku/15/change/ HTTP/1.1" 200 34192
+INFO 2018-08-29 10:37:13,778 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-08-29 10:37:17,003 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8575
+INFO 2018-08-29 10:37:19,175 basehttp 124 "GET /admin/goods/sku/16/change/ HTTP/1.1" 200 34198
+INFO 2018-08-29 10:37:19,298 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+ERROR 2018-08-29 10:38:01,909 exception 135 Internal Server Error: /admin/goods/sku/16/change/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/util/connection.py", line 79, in create_connection
+    raise err
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/util/connection.py", line 69, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/connection/http_urllib3.py", line 95, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/util/retry.py", line 343, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.5/http/client.py", line 1106, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1151, in _send_request
+    self.endheaders(body)
+  File "/usr/lib/python3.5/http/client.py", line 1102, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/connection.py", line 196, in connect
+    conn = self._new_conn()
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/urllib3/connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3702f82b70>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/contrib/admin/options.py", line 1511, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/contrib/admin/options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/contrib/admin/options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/contrib/admin/options.py", line 979, in save_model
+    obj.save()
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/db/models/base.py", line 806, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/db/models/base.py", line 846, in save_base
+    update_fields=update_fields, raw=raw, using=using,
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/dispatch/dispatcher.py", line 193, in send
+    for receiver in self._live_receivers(sender)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/dispatch/dispatcher.py", line 193, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/haystack/signals.py", line 52, in handle_save
+    index.update_object(instance, using=using)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/haystack/indexes.py", line 284, in update_object
+    backend.update(self, [instance])
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/haystack/backends/elasticsearch_backend.py", line 190, in update
+    bulk(self.conn, prepped_docs, index=self.index_name, doc_type='modelresult')
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/helpers/__init__.py", line 190, in bulk
+    for ok, item in streaming_bulk(client, actions, **kwargs):
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/helpers/__init__.py", line 162, in streaming_bulk
+    for result in _process_bulk_chunk(client, bulk_actions, raise_on_exception, raise_on_error, **kwargs):
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/helpers/__init__.py", line 91, in _process_bulk_chunk
+    raise e
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/helpers/__init__.py", line 87, in _process_bulk_chunk
+    resp = client.bulk('\n'.join(bulk_actions) + '\n', **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/client/utils.py", line 69, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/client/__init__.py", line 785, in bulk
+    doc_type, '_bulk'), params=params, body=self._bulk_body(body))
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/transport.py", line 327, in perform_request
+    status, headers, data = connection.perform_request(method, url, params, body, ignore=ignore, timeout=timeout)
+  File "/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/elasticsearch/connection/http_urllib3.py", line 106, in perform_request
+    raise ConnectionError('N/A', str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f3702f82b70>: Failed to establish a new connection: [Errno 113] No route to host) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f3702f82b70>: Failed to establish a new connection: [Errno 113] No route to host)
+ERROR 2018-08-29 10:38:02,564 basehttp 124 "POST /admin/goods/sku/16/change/ HTTP/1.1" 500 299354
+INFO 2018-08-29 10:39:12,405 basehttp 124 "GET /admin/goods/sku/16/change/ HTTP/1.1" 200 34198
+INFO 2018-08-29 10:56:05,467 basehttp 124 "GET /skus/search/?text=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 52
+INFO 2018-08-29 10:56:11,462 basehttp 124 "GET /skus/search/?text=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 52
+INFO 2018-08-29 10:56:14,466 basehttp 124 "GET /skus/search/?text=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 52
+INFO 2018-08-29 11:42:19,720 basehttp 124 "GET /skus/search/?text=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 52
+INFO 2018-08-29 11:43:27,886 basehttp 124 "GET /skus/search/?text=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 52
+INFO 2018-08-29 11:43:44,151 basehttp 124 "GET /skus/search/?text=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 52
+INFO 2018-08-29 11:44:10,790 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+WARNING 2018-08-29 11:44:10,844 basehttp 124 "POST /authorizations/ HTTP/1.1" 400 67
+INFO 2018-08-29 11:44:19,091 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 207
+INFO 2018-08-29 11:44:54,701 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2018-08-29 11:44:54,730 base 152 Not Found: /categories/157/
+WARNING 2018-08-29 11:44:54,744 basehttp 124 "GET /categories/157/ HTTP/1.1" 404 4989
+WARNING 2018-08-29 11:44:54,735 base 152 Not Found: /cart/
+WARNING 2018-08-29 11:44:54,755 basehttp 124 "GET /cart/ HTTP/1.1" 404 4959
+INFO 2018-08-29 11:44:54,778 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 452
+INFO 2018-08-29 11:45:00,117 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+INFO 2018-08-29 11:45:00,240 basehttp 124 "POST /browse_histories/ HTTP/1.1" 201 12
+INFO 2018-08-29 11:48:03,069 basehttp 124 "POST /browse_histories/ HTTP/1.1" 201 13
+INFO 2018-08-29 11:48:55,014 basehttp 124 "POST /browse_histories/ HTTP/1.1" 201 13
+INFO 2018-08-29 11:49:33,378 basehttp 124 "POST /browse_histories/ HTTP/1.1" 201 13
+INFO 2018-08-29 12:01:08,465 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-08-29 12:01:08,569 basehttp 124 "GET /user/ HTTP/1.1" 200 83
+INFO 2018-08-29 12:01:08,583 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+INFO 2018-08-29 12:01:08,653 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 912
+INFO 2018-08-29 12:03:54,066 basehttp 124 "POST /browse_histories/ HTTP/1.1" 201 13
+INFO 2018-08-29 12:05:49,578 basehttp 124 "POST /browse_histories/ HTTP/1.1" 201 13
+INFO 2018-08-29 15:51:31,326 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-08-29 15:51:31,488 basehttp 124 "GET /user/ HTTP/1.1" 200 83
+INFO 2018-08-29 15:51:31,538 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+INFO 2018-08-29 15:51:31,644 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 912
+INFO 2018-08-29 15:52:00,147 basehttp 124 "OPTIONS /emails/ HTTP/1.1" 200 0
+INFO 2018-08-29 15:52:00,311 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+INFO 2018-08-29 16:06:11,437 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-08-29 16:06:11,532 basehttp 124 "GET /user/ HTTP/1.1" 200 83
+INFO 2018-08-29 16:06:11,593 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+INFO 2018-08-29 16:06:11,755 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 912
+INFO 2018-08-29 16:07:08,415 basehttp 124 "OPTIONS /emails/ HTTP/1.1" 200 0
+INFO 2018-08-29 16:07:08,611 basehttp 124 "PUT /emails/ HTTP/1.1" 200 38
+INFO 2018-08-29 16:15:30,057 basehttp 124 "GET /user/ HTTP/1.1" 200 102
+INFO 2018-08-29 16:15:30,226 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 912
+INFO 2018-08-29 16:15:37,472 basehttp 124 "PUT /emails/ HTTP/1.1" 200 38
+INFO 2018-08-29 16:20:28,756 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-08-29 16:20:28,855 basehttp 124 "GET /user/ HTTP/1.1" 200 83
+INFO 2018-08-29 16:20:28,892 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+INFO 2018-08-29 16:20:28,999 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 912
+INFO 2018-08-29 16:21:35,090 basehttp 124 "OPTIONS /emails/ HTTP/1.1" 200 0
+INFO 2018-08-29 16:21:35,233 basehttp 124 "PUT /emails/ HTTP/1.1" 200 38
+INFO 2018-08-29 16:23:51,147 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-08-29 16:23:51,371 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 232
+INFO 2018-08-29 16:23:51,965 basehttp 124 "GET /user/ HTTP/1.1" 200 102
+INFO 2018-08-29 16:23:52,262 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 912
+INFO 2018-08-29 16:23:56,646 basehttp 124 "PUT /emails/ HTTP/1.1" 200 38
+INFO 2018-08-29 16:45:14,188 basehttp 124 "GET / HTTP/1.1" 200 5189
+INFO 2018-08-29 16:45:14,275 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2018-08-29 16:45:14,286 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2018-08-29 16:45:14,281 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2018-08-29 16:45:14,322 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2018-08-29 16:45:14,333 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2018-08-29 16:45:14,335 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+INFO 2018-08-29 16:45:14,348 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+INFO 2018-08-29 16:45:14,378 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2018-08-29 16:45:14,383 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2018-08-29 16:45:14,432 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+INFO 2018-08-29 16:45:14,911 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2018-08-29 16:45:28,807 basehttp 124 "GET / HTTP/1.1" 200 5201
+INFO 2018-08-29 16:45:28,850 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2018-08-29 16:45:28,906 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2018-08-29 16:45:28,917 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2018-08-29 16:45:28,918 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2018-08-29 16:45:28,961 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+INFO 2018-08-29 16:45:28,972 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2018-08-29 16:45:28,981 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+INFO 2018-08-29 16:45:28,995 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2018-08-29 16:45:29,015 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+INFO 2018-08-29 16:45:29,017 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2018-08-29 16:45:29,377 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2018-08-29 16:46:46,113 basehttp 124 "GET / HTTP/1.1" 200 5201
+INFO 2018-08-29 16:46:46,215 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2018-08-29 16:46:46,225 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2018-08-29 16:46:46,227 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2018-08-29 16:46:46,242 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2018-08-29 16:46:46,260 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2018-08-29 16:46:46,262 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+INFO 2018-08-29 16:46:46,280 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+INFO 2018-08-29 16:46:46,301 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2018-08-29 16:46:46,313 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2018-08-29 16:46:46,340 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+INFO 2018-08-29 16:46:46,659 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2018-08-29 16:48:38,966 basehttp 124 "GET / HTTP/1.1" 200 5201
+INFO 2018-08-29 16:49:00,508 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-08-29 16:49:04,420 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-08-29 16:49:05,687 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-08-29 16:49:07,057 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-08-29 16:49:07,508 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-08-29 16:49:07,700 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-08-29 16:49:07,856 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-08-29 16:50:08,061 basehttp 124 "GET / HTTP/1.1" 200 5189
+INFO 2018-08-29 16:50:08,118 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2018-08-29 16:50:08,127 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2018-08-29 16:50:08,142 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2018-08-29 16:50:08,150 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2018-08-29 16:50:08,200 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+INFO 2018-08-29 16:50:08,202 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2018-08-29 16:50:08,231 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+INFO 2018-08-29 16:50:08,236 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2018-08-29 16:50:08,236 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2018-08-29 16:50:08,249 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+INFO 2018-08-29 16:50:08,525 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2018-08-29 16:59:24,228 basehttp 124 "GET / HTTP/1.1" 200 5189
+INFO 2018-08-29 17:00:02,856 basehttp 124 "GET / HTTP/1.1" 200 5189
+WARNING 2018-08-29 17:00:04,125 base 152 Not Found: /favicon.ico
+WARNING 2018-08-29 17:00:04,138 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 5141
+INFO 2018-08-29 17:04:27,781 basehttp 124 "GET / HTTP/1.1" 200 5201
+WARNING 2018-08-29 17:04:28,169 base 152 Not Found: /favicon.ico
+WARNING 2018-08-29 17:04:28,173 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 5147
+INFO 2018-08-29 17:04:41,342 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-08-29 17:04:41,502 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 232
+INFO 2018-08-29 17:05:02,451 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-08-29 17:05:02,663 basehttp 124 "GET /user/ HTTP/1.1" 200 102
+INFO 2018-08-29 17:05:02,689 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+INFO 2018-08-29 17:05:02,785 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 912
+WARNING 2018-08-29 17:05:57,696 base 152 Not Found: /user/emails/verification/
+WARNING 2018-08-29 17:05:57,723 basehttp 124 "GET /user/emails/verification/?token=eyJhbGciOiJIUzI1NiIsImV4cCI6MTUzNTYxNzQzNiwiaWF0IjoxNTM1NTMxMDM2fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20ifQ._IP4Q_21frlvpt-KT1womBE4efvbfNHIwPsCbZmDfQA HTTP/1.1" 404 5365
+WARNING 2018-08-29 17:06:12,918 base 152 Not Found: /user/emails/verification/
+WARNING 2018-08-29 17:06:12,927 basehttp 124 "GET /user/emails/verification/?token=eyJhbGciOiJIUzI1NiIsImV4cCI6MTUzNTYxNzQzNiwiaWF0IjoxNTM1NTMxMDM2fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20ifQ._IP4Q_21frlvpt-KT1womBE4efvbfNHIwPsCbZmDfQA HTTP/1.1" 404 5365
+INFO 2018-08-29 17:06:18,558 basehttp 124 "GET /user/ HTTP/1.1" 200 102
+INFO 2018-08-29 17:06:18,630 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 912
+INFO 2018-08-29 17:06:28,862 basehttp 124 "OPTIONS /emails/ HTTP/1.1" 200 0
+INFO 2018-08-29 17:06:29,054 basehttp 124 "PUT /emails/ HTTP/1.1" 200 38
+WARNING 2018-08-29 17:07:31,666 base 152 Not Found: /user/emails/verification/
+WARNING 2018-08-29 17:07:31,671 basehttp 124 "GET /user/emails/verification/?token=eyJpYXQiOjE1MzU1MzM1ODgsImFsZyI6IkhTMjU2IiwiZXhwIjoxNTM1NjE5OTg4fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20ifQ.eOcZatRbHlX-FesIAY4FYycwQVOlfkuD6qYDUmRtpio HTTP/1.1" 404 5365
+WARNING 2018-08-29 17:20:08,805 base 152 Not Found: /user/emails/verification/
+WARNING 2018-08-29 17:20:08,819 basehttp 124 "GET /user/emails/verification/?token=eyJpYXQiOjE1MzU1MzM1ODgsImFsZyI6IkhTMjU2IiwiZXhwIjoxNTM1NjE5OTg4fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20ifQ.eOcZatRbHlX-FesIAY4FYycwQVOlfkuD6qYDUmRtpio HTTP/1.1" 404 5365
+WARNING 2018-08-29 17:20:11,287 base 152 Not Found: /user/emails/verification/
+WARNING 2018-08-29 17:20:11,338 basehttp 124 "GET /user/emails/verification/?token=eyJpYXQiOjE1MzU1MzM1ODgsImFsZyI6IkhTMjU2IiwiZXhwIjoxNTM1NjE5OTg4fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20ifQ.eOcZatRbHlX-FesIAY4FYycwQVOlfkuD6qYDUmRtpio HTTP/1.1" 404 5365
+WARNING 2018-08-29 17:20:13,152 base 152 Not Found: /user/emails/verification/
+WARNING 2018-08-29 17:20:13,164 basehttp 124 "GET /user/emails/verification/?token=eyJpYXQiOjE1MzU1MzM1ODgsImFsZyI6IkhTMjU2IiwiZXhwIjoxNTM1NjE5OTg4fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20ifQ.eOcZatRbHlX-FesIAY4FYycwQVOlfkuD6qYDUmRtpio HTTP/1.1" 404 5365
+WARNING 2018-08-29 17:20:13,957 base 152 Not Found: /user/emails/verification/
+WARNING 2018-08-29 17:20:13,973 basehttp 124 "GET /user/emails/verification/?token=eyJpYXQiOjE1MzU1MzM1ODgsImFsZyI6IkhTMjU2IiwiZXhwIjoxNTM1NjE5OTg4fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20ifQ.eOcZatRbHlX-FesIAY4FYycwQVOlfkuD6qYDUmRtpio HTTP/1.1" 404 5365
+WARNING 2018-08-29 17:20:14,677 base 152 Not Found: /user/emails/verification/
+WARNING 2018-08-29 17:20:14,693 basehttp 124 "GET /user/emails/verification/?token=eyJpYXQiOjE1MzU1MzM1ODgsImFsZyI6IkhTMjU2IiwiZXhwIjoxNTM1NjE5OTg4fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20ifQ.eOcZatRbHlX-FesIAY4FYycwQVOlfkuD6qYDUmRtpio HTTP/1.1" 404 5365
+WARNING 2018-08-29 17:20:15,367 base 152 Not Found: /user/emails/verification/
+WARNING 2018-08-29 17:20:15,372 basehttp 124 "GET /user/emails/verification/?token=eyJpYXQiOjE1MzU1MzM1ODgsImFsZyI6IkhTMjU2IiwiZXhwIjoxNTM1NjE5OTg4fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20ifQ.eOcZatRbHlX-FesIAY4FYycwQVOlfkuD6qYDUmRtpio HTTP/1.1" 404 5365
+WARNING 2018-08-29 17:20:15,577 base 152 Not Found: /user/emails/verification/
+WARNING 2018-08-29 17:20:15,586 basehttp 124 "GET /user/emails/verification/?token=eyJpYXQiOjE1MzU1MzM1ODgsImFsZyI6IkhTMjU2IiwiZXhwIjoxNTM1NjE5OTg4fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20ifQ.eOcZatRbHlX-FesIAY4FYycwQVOlfkuD6qYDUmRtpio HTTP/1.1" 404 5365
+WARNING 2018-08-29 17:20:16,180 base 152 Not Found: /user/emails/verification/
+WARNING 2018-08-29 17:20:16,237 basehttp 124 "GET /user/emails/verification/?token=eyJpYXQiOjE1MzU1MzM1ODgsImFsZyI6IkhTMjU2IiwiZXhwIjoxNTM1NjE5OTg4fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20ifQ.eOcZatRbHlX-FesIAY4FYycwQVOlfkuD6qYDUmRtpio HTTP/1.1" 404 5365
+WARNING 2018-08-29 17:20:16,260 base 152 Not Found: /user/emails/verification/
+WARNING 2018-08-29 17:20:16,276 basehttp 124 "GET /user/emails/verification/?token=eyJpYXQiOjE1MzU1MzM1ODgsImFsZyI6IkhTMjU2IiwiZXhwIjoxNTM1NjE5OTg4fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20ifQ.eOcZatRbHlX-FesIAY4FYycwQVOlfkuD6qYDUmRtpio HTTP/1.1" 404 5365
+WARNING 2018-08-29 17:20:16,561 base 152 Not Found: /user/emails/verification/
+WARNING 2018-08-29 17:20:16,570 basehttp 124 "GET /user/emails/verification/?token=eyJpYXQiOjE1MzU1MzM1ODgsImFsZyI6IkhTMjU2IiwiZXhwIjoxNTM1NjE5OTg4fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20ifQ.eOcZatRbHlX-FesIAY4FYycwQVOlfkuD6qYDUmRtpio HTTP/1.1" 404 5365
+WARNING 2018-08-29 17:20:16,918 base 152 Not Found: /user/emails/verification/
+WARNING 2018-08-29 17:20:16,933 basehttp 124 "GET /user/emails/verification/?token=eyJpYXQiOjE1MzU1MzM1ODgsImFsZyI6IkhTMjU2IiwiZXhwIjoxNTM1NjE5OTg4fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20ifQ.eOcZatRbHlX-FesIAY4FYycwQVOlfkuD6qYDUmRtpio HTTP/1.1" 404 5365
+WARNING 2018-08-29 17:21:19,230 base 152 Not Found: /user/emails/verification/
+WARNING 2018-08-29 17:21:19,243 basehttp 124 "GET /user/emails/verification/?token=eyJpYXQiOjE1MzU1MzM1ODgsImFsZyI6IkhTMjU2IiwiZXhwIjoxNTM1NjE5OTg4fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20ifQ.eOcZatRbHlX-FesIAY4FYycwQVOlfkuD6qYDUmRtpio HTTP/1.1" 404 5365
+WARNING 2018-08-29 17:21:24,702 base 152 Not Found: /user/emails/verification/
+WARNING 2018-08-29 17:21:24,707 basehttp 124 "GET /user/emails/verification/?token=eyJpYXQiOjE1MzU1MzM1ODgsImFsZyI6IkhTMjU2IiwiZXhwIjoxNTM1NjE5OTg4fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20ifQ.eOcZatRbHlX-FesIAY4FYycwQVOlfkuD6qYDUmRtpio HTTP/1.1" 404 5365
+WARNING 2018-08-29 17:21:58,113 base 152 Not Found: /user/emails/verification/
+WARNING 2018-08-29 17:21:58,123 basehttp 124 "GET /user/emails/verification/?token=eyJpYXQiOjE1MzU1MzM1ODgsImFsZyI6IkhTMjU2IiwiZXhwIjoxNTM1NjE5OTg4fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20ifQ.eOcZatRbHlX-FesIAY4FYycwQVOlfkuD6qYDUmRtpio HTTP/1.1" 404 5365
+INFO 2018-08-29 17:22:43,586 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-08-29 17:22:43,730 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 232
+INFO 2018-08-29 17:22:44,184 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-08-29 17:22:44,370 basehttp 124 "GET /user/ HTTP/1.1" 200 102
+INFO 2018-08-29 17:22:44,428 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+INFO 2018-08-29 17:22:44,490 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 912
+INFO 2018-08-29 17:22:47,472 basehttp 124 "OPTIONS /emails/ HTTP/1.1" 200 0
+INFO 2018-08-29 17:22:47,630 basehttp 124 "PUT /emails/ HTTP/1.1" 200 38
+WARNING 2018-08-29 17:23:55,914 base 152 Not Found: /user/emails/verification/
+WARNING 2018-08-29 17:23:55,928 basehttp 124 "GET /user/emails/verification/?token=eyJhbGciOiJIUzI1NiIsImV4cCI6MTUzNTYyMDk2NywiaWF0IjoxNTM1NTM0NTY3fQ.eyJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20iLCJ1c2VyX2lkIjoxfQ.3lDI4svudfTVNt_U833e_jI3MhEUPPQsvJJx7PQqTgY HTTP/1.1" 404 5365
+INFO 2018-08-29 17:28:31,700 basehttp 124 "GET /user/ HTTP/1.1" 200 102
+INFO 2018-08-29 17:28:31,936 basehttp 124 "GET /emails/verification/?token=eyJhbGciOiJIUzI1NiIsImV4cCI6MTUzNTYyMDk2NywiaWF0IjoxNTM1NTM0NTY3fQ.eyJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20iLCJ1c2VyX2lkIjoxfQ.3lDI4svudfTVNt_U833e_jI3MhEUPPQsvJJx7PQqTgY HTTP/1.1" 200 16
+INFO 2018-08-29 17:28:31,952 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 912
+INFO 2018-08-29 17:28:43,367 basehttp 124 "GET /emails/verification/?token=eyJhbGciOiJIUzI1NiIsImV4cCI6MTUzNTYyMDk2NywiaWF0IjoxNTM1NTM0NTY3fQ.eyJlbWFpbCI6IjE4NjIyMzQ0NjE4QDE2My5jb20iLCJ1c2VyX2lkIjoxfQ.3lDI4svudfTVNt_U833e_jI3MhEUPPQsvJJx7PQqTgY HTTP/1.1" 200 16
+INFO 2018-08-29 17:28:48,263 basehttp 124 "GET /user/ HTTP/1.1" 200 101
+INFO 2018-08-29 17:28:48,361 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 912
+INFO 2018-08-29 20:53:17,216 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+WARNING 2018-08-29 20:53:17,285 base 152 Not Found: /addresses/
+WARNING 2018-08-29 20:53:17,296 basehttp 124 "GET /addresses/ HTTP/1.1" 404 6315
+INFO 2018-08-29 20:53:17,303 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-08-29 20:55:43,208 basehttp 124 "GET /areas/120000/ HTTP/1.1" 200 74
+INFO 2018-08-29 20:55:45,336 basehttp 124 "GET /areas/120100/ HTTP/1.1" 200 572
+INFO 2018-08-29 21:45:43,377 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+INFO 2018-08-29 21:45:43,449 basehttp 124 "POST /addresses/ HTTP/1.1" 201 241
+INFO 2018-08-29 21:45:50,490 basehttp 124 "GET /areas/140000/ HTTP/1.1" 200 404
+INFO 2018-08-29 21:45:51,363 basehttp 124 "GET /areas/140300/ HTTP/1.1" 200 194
+INFO 2018-08-29 21:46:04,967 basehttp 124 "POST /addresses/ HTTP/1.1" 201 249
+INFO 2018-08-29 21:46:06,518 basehttp 124 "OPTIONS /addresses/2/status/ HTTP/1.1" 200 0
+INFO 2018-08-29 21:46:06,550 basehttp 124 "PUT /addresses/2/status/ HTTP/1.1" 200 16

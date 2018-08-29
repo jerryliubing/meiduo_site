@@ -37,7 +37,7 @@ var vm = new Vue({
         // 添加用户浏览历史记录
         this.get_sku_id();
         if (this.user_id) {
-            axios.post(this.host+'/user/browse_histories/', {
+            axios.post(this.host+'/browse_histories/', {
                 sku_id: this.sku_id
             }, {
                 headers: {
